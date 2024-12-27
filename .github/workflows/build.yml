@@ -8,6 +8,10 @@ on:
   push:
     branches:
       - master
+      - 1.37
+    tags:
+      - 2.0.0
+      - 1.36.0
   pull_request:
     branches:
       - master
